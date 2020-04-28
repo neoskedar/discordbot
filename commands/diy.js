@@ -29,7 +29,7 @@ module.exports = {
                     //description: "This is a test embed to showcase what they look like and what they can do.",
                     fields: [{
                         name: "Components",
-                        value: data.games.nh.recipe,
+                        value: "Items would be here",
                       },
                       //{
                         //name: "Orderable?",
