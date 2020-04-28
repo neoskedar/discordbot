@@ -14,7 +14,7 @@ module.exports = {
              //raw content for the 1UP Cap, fetched from https://raw.githubusercontent.com/jefflomacy/villagerdb/master/data/items/1-up-cap.json
             .then(response => response.json())
             .then(data => {
-              message.channel.send(data.games.nh.sellPrice.value);
+              console.log('Price is: ' + data.games.nh.buyPrices[0].value + ' bells.');
             })
             .catch(error => console.error(error))
 
